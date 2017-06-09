@@ -22,7 +22,7 @@ Ensure a class only has one instance, and provide a global point of access to it
 
 *Application*
 
-Setting a unique origin in the N-D Euclidean Plane <br/>
+Setting a unique origin in the 2-D Euclidean Plane <br/>
 
 **Strategy Pattern (aka Policy)** 
 
