@@ -22,9 +22,7 @@ Ensure a class only has one instance, and provide a global point of access to it
 
 *Application*
 
-Setting a unique origin in the N-D Euclidean Plane
-
-
+Setting a unique origin in the N-D Euclidean Plane <br/>
 
 **Strategy Pattern (aka Policy)** 
 
@@ -40,9 +38,7 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 
 *Application*
 
-Computing distance between 2-D Points using different algorithms and approximations.
-
-
+Computing distance between 2-D Points using different algorithms and approximations.<br/>
 
 **Observer Pattern**
 
@@ -57,9 +53,7 @@ Partitioning a system into a collection of cooperating classes is the need to ma
  
 *Application*
 
-Counter class in the role of the observable, and observer classes that print the output in different formats
-
-
+Counter class in the role of the observable, and observer classes that print the output in different formats. <br/>
 
 **Factory Pattern**
  
@@ -77,9 +71,7 @@ Define an interface for creating an object, but let subclasses decide which clas
 
 *Application*
 
-Shape Hierarchy (CAD classes) and its functionality.
-
-
+Shape Hierarchy (CAD classes) and its functionality. <br/>
 
 **Template Method Pattern**
 
