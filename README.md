@@ -38,7 +38,7 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 
 *Application*
 
-Computing distance between 2-D Points using different algorithms and approximations.<br/>
+Sorting an STL array with different algorithms: bubble sort and another sorting algorithm
 
 **Observer Pattern**
 
