@@ -73,7 +73,7 @@ Define an interface for creating an object, but let subclasses decide which clas
 
 Garage selling cars, bikes, and drones from two (or more) manufacturers. <br/>
 
-**Template Method Pattern**
+**Template Method Pattern (with universal function wrappers)**
 
 *Intent*
 
