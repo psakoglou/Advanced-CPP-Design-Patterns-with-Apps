@@ -71,7 +71,7 @@ Define an interface for creating an object, but let subclasses decide which clas
 
 *Application*
 
-Shape Hierarchy (CAD classes) and its functionality. <br/>
+Garage selling cars, bikes, and drones from two (or more) manufacturers. <br/>
 
 **Template Method Pattern**
 
