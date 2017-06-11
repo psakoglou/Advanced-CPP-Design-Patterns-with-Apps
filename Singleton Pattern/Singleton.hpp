@@ -1,4 +1,5 @@
 /*
+*	© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
 * ====================================================================
