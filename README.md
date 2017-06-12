@@ -79,14 +79,14 @@ Garage selling cars, bikes, and drones from two (or more) manufacturers. <br/>
 
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 
+Using universal function wrappers we don't need subclasses anymore, but instead we can comprise the algorithm -- and the dependency graph -- using a sequence of free functions or function objects of a certain type. 
+
 *Usage*
 
-1) To implement the invariant parts of an algorithm once, and leave it up to subclasses to implement the behavior that can vary.
-
-2) To control subclasses extensions. You can define a template method that calls "hook" operation at specific points, thereby permitting extensions only at those points. 
+1) To implement the invariant parts of an algorithm once, and leave it up to a sequence of free function wrappers to implement the behavior, that can vary.
 
 *Application*
 
-Input-Processing-Output
+Compute the Nth power of 2 and perform an n-size function composition with a single (or several) input
 
 
