@@ -53,7 +53,7 @@ Partitioning a system into a collection of cooperating classes is the need to ma
  
 *Application*
 
-Counter class in the role of the observable, and observer classes that print the output in different formats. <br/>
+Receive TV signals of channels (observables), connect or disconnect them to/from several devices (observers), and play the TV channels in these devices.
 
 **Factory Pattern**
  
