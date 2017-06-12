@@ -1,5 +1,5 @@
 /*
-*	© Superharmonic Technologies
+*	Â© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
 * ================================================================
@@ -50,11 +50,13 @@ int main() {
 	// Will compute the Nth power of 2: for N = 5 we expect to get 32
 	std::cout << "The " << N << "th power of 2 is : " << processor.execute(1) << "\n\n";
 
-	// Remove the last function
-	processor.removeFunction();
+	if (N > 0) {
+		// Remove the last function
+		processor.removeFunction();
 
-	// Will compute the Nth - 1 power of 2: for N' = 5 - 1 we expect to get 16
-	std::cout << "The " << N - 1 << "th - 1 power of 2 is : " << processor.execute(1) << "\n\n";
+		// Will compute the Nth - 1 power of 2: for N' = 5 - 1 we expect to get 16
+		std::cout << "The " << N << "th - 1 power of 2 (2^" << N - 1 << ") is : " << processor.execute(1) << "\n\n";
+	}
 
 	// Remove all functions 
 	processor.clear();
