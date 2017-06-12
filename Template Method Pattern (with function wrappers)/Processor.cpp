@@ -1,5 +1,5 @@
 /*
-*	© Superharmonic Technologies
+*	Â© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
 * ================================================================
@@ -33,6 +33,10 @@ void Processor<T>::clear() {
 template <class T>
 T Processor<T>::execute(const T t) {
 	std::size_t size = function_vector.size();
+	if (size == 0) {
+		std::cout << "Exception! No functions to compose and execute!\n";
+		return 1;
+	}
 	T result = function_vector[size - 1](t);
 	T temp;
 	for (unsigned i = size - 1; i > 0; i = i - 2) {
@@ -43,7 +47,7 @@ T Processor<T>::execute(const T t) {
 		temp = function_vector[i - 1](result);
 		result = function_vector[i - 2](temp);
 	}
-	return result; 
+	return result;
 }
 
 #endif
