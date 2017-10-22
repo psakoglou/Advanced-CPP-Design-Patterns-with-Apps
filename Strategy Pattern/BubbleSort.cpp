@@ -1,5 +1,5 @@
 /*
-*	© Superharmonic Technologies
+*	Â© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
 * ===============================================================
@@ -14,7 +14,9 @@
 
 #include "BubbleSort.hpp"
 
-// Default constructor
+// Default constructor 
+// C++11 "default" keyword that means that you want to use the compiler-generated version of that function, 
+// so you don't need to specify a body. More here: http://en.cppreference.com/w/cpp/language/default_constructor
 template <class T, std::size_t N>
 BubbleSort<T, N>::BubbleSort() = default;
 
