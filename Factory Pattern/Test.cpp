@@ -1,5 +1,5 @@
 /*
-*	© Superharmonic Technologies
+*	Â© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
 * ================================================================
@@ -8,8 +8,11 @@
 *
 */
 
+// Include libraries
 #include <iostream>
 #include <memory>
+
+// Include code files
 #include "RacingVehiclesFactory.hpp"
 #include "TransportationVehiclesFactory.hpp"
 
@@ -49,7 +52,6 @@ int main() {
 	transportation_bike.buy();
 	transportation_drone.buy();
 	std::cout << "\n\n";
-
 
 	return 0;
 }
