@@ -1,6 +1,6 @@
 /*
 *
-*	© Superharmonic Technologies
+*	Â© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
 *  ======================================================
@@ -8,7 +8,6 @@
 *	TVSignals base class implementation
 *
 */
-
 
 // Include guards
 #ifndef TVSIGNALS_HPP
