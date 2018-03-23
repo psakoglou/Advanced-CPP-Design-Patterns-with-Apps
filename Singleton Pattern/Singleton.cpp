@@ -2,7 +2,7 @@
 *	© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
-* ====================================================================
+* ===================================================
 *
 *	Singleton Implementation
 *
